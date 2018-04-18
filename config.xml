@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<widget xmlns = "http://www.w3.org/ns/widgets"
+		xmlns:gap = "http://phonegap.com/ns/1.0"
+		id = "com.iamodin.psycheblist"
+		versionCode = "1"
+		version = "1.0.6" >
+
+		<name>Psychedelic Bucketlist</name>
+		<description>This is my amazing pointless app.</description>
+
+		<author href="http://www.iamodin.com" email="odin@iamodin.com">
+			Odin Malong
+		</author>
+
+
+		<preference name = "orientation" value="portrait" />
+
+		<preference name = "fullscreen" value="false" />
+
+		<allow-navigation href="*" />
+		<access origin="*" />
+		<allow-intent href="*" />
+
+		<plugin name="cordova-plugin-whitelist" spec="1.3.3" />
+
+</widget>
